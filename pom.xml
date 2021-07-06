@@ -69,6 +69,12 @@
             </exclusion>
         </exclusions>
     </dependency>
+    <!-- Added by Bhavana - Start -->
+    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+	</dependency>
+	<!-- Added by Bhavana - End -->
 
     <!-- Databases - Uses H2 by default -->
     <dependency>
